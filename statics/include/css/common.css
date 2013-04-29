@@ -1,0 +1,98 @@
+/* CSS Document */
+@charset "utf-8";
+.fLeft {float:left; padding-right:10px;}
+.fRight {float:right;}
+.clear {clear:both;}
+
+   @font-face{font-family:'NGothic'; src:url('/include/font/NanumGothic.woff') format('woff'); }
+   @font-face{font-family:'NGothicB'; src:url('/include/font/NanumGothicBold.woff') format('woff'); }
+   @font-face{font-family:'NGothicEB'; src:url('/include/font/NanumGothicExtraBold.woff') format('woff'); }
+   @font-face{font-family:'Bebas'; src:url('/include/font/bebas.woff') format('woff'); }
+   
+body {background:#F5F5F5;}
+   
+@media (max-width:767px) {/* 최소 ~ 최대 767 */
+boby {-webkit-text-size-adjust: none;}
+#Sheader #Gnb {width:100%; padding-top:17px;}
+#Sheader #Gnb .logo {margin:0 0 10px 20px; background:url("/images/common/img_logo2.png") no-repeat left top; width:117px; height:23px;}
+#Sheader #Gnb .Nav {width:80%; margin-left:10.9%; overflow:hidden; height:35px;}
+#Sheader #Gnb .Nav li {float:left; margin-right:1%; font:15px "NGothic"; display:inline-block; background:#000; color:#ececec; width:32.3%; height:29px; text-align:center; padding-top:8px; }
+/*#Sheader #Gnb .Nav li a {font:15px "NGothic"; display:inline-block; background:#000; color:#ececec; width:95px; height:29px; text-align:center; padding-top:8px;}
+#Sheader #Gnb .Nav li a:hover {color:#FFF; background:#8d3200}
+#Sheader #Gnb .Nav li a.on {color:#FFF; background:#8d3200}*/
+
+#Scontainer {width:100%; margin:25px 0 60px 0; background: #f5f5f5 url("/images/common/bg_sub.gif") repeat-x left top;}
+#Scontainer .sWrap {width:100%; margin:0 auto;}
+#Scontainer .sWrap h2 {font:24px "Bebas"; color:#000; text-align:center; margin-bottom:30px;}
+
+#Scontainer .sWrap .sCentents {width:100%;}
+#Scontainer .sWrap .sCentents h3 {width:100%; height:40px; background:url("/images/common/bg_stitle.gif") no-repeat center top; font:20px "NGothicEB"; color:#414141; text-align:center; line-height:40px; margin-top:22px;}
+
+
+#Footer {width:100%; height:112px; background:url("/images/common/bg_footer.gif") repeat-x center top;}
+#Footer .fMenu {width:100%; margin:0 auto;}
+#Footer .fMenu p img {float:right; margin-top:-83px; padding-right:10px;}
+#Footer .fMenu ul {overflow:hidden; padding:10px 0 55px 30px; }
+#Footer .fMenu li a {float:left; padding-right:18px; font:13px "NGothic"; color:#5b5b5b;}
+#Footer .fMenu li a:hover {float:left; padding-right:18px; font:13px "NGothic"; color:#5b5b5b; text-decoration:underline;}
+#Footer .fMenu .copyright {font:12px "NGothic"; color:#5b5b5b; padding:3px 0 0 30px;}
+
+}
+   
+
+@media (min-width:768px) and (max-width:1023px){/* 최소 481 ~ 1023 ------------------------------------------------------------------------------------------------------- */
+
+#Sheader #Gnb {width:100%; margin:0 auto; overflow:hidden;}
+#Sheader #Gnb .logo {float:left; margin:17px 0 0 20px; background:url("/images/common/img_logo.png") no-repeat left top; width:188px; height:37px;}
+#Sheader #Gnb .Nav {float:right; overflow:hidden; margin:17px 0 0 0; }
+#Sheader #Gnb .Nav li {float:left; padding-right:3px; display:inline;}
+#Sheader #Gnb .Nav li a {font:15px "NGothic"; display:inline-block; background:#000; color:#ececec; width:95px; height:29px; text-align:center; padding-top:8px;}
+#Sheader #Gnb .Nav li a:hover {color:#FFF; background:#8d3200}
+#Sheader #Gnb .Nav li a.on {color:#FFF; background:#8d3200}
+
+#Scontainer {width:100%; margin:25px 0 60px 0; background: #f5f5f5 url("/images/common/bg_sub.gif") repeat-x left top;}
+#Scontainer .sWrap {width:100%; margin:0 auto;}
+#Scontainer .sWrap h2 {font:30px "Bebas"; color:#000; text-align:center; margin-bottom:30px;}
+
+#Scontainer .sWrap .sCentents {width:100%;}
+#Scontainer .sWrap .sCentents h3 {width:100%; height:40px; background:url("/images/common/bg_stitle.gif") no-repeat center top; font:20px "NGothicEB"; color:#414141; text-align:center; line-height:40px; margin-top:22px;}
+
+
+#Footer {width:100%; height:112px; background:url("/images/common/bg_footer.gif") repeat-x center top;}
+#Footer .fMenu {width:93%; margin:0 auto; padding:18px 0 0 30px; overflow:hidden;}
+#Footer .fMenu p img {float:right; margin-top:-93px;}
+#Footer .fMenu ul {overflow:hidden; margin-bottom:60px; }
+#Footer .fMenu li a {float:left; padding-right:18px; font:13px "NGothic"; color:#5b5b5b;}
+#Footer .fMenu li a:hover {float:left; padding-right:18px; font:13px "NGothic"; color:#5b5b5b; text-decoration:underline;}
+#Footer .fMenu .copyright {font:12px "NGothic"; color:#5b5b5b;}
+
+}
+
+
+@media (min-width:1024px) {/* 최소 1024 ~ 최대 ------------------------------------------------------------------------------------------------------- */
+
+#Sheader #Gnb {width:1000px; margin:0 auto; overflow:hidden;}
+#Sheader #Gnb .logo {float:left; margin:27px 0 0 30px; background:url("/images/common/img_logo.png") no-repeat left top; width:188px; height:37px;}
+#Sheader #Gnb .Nav {float:left; overflow:hidden; margin:27px 0 0 461px; }
+#Sheader #Gnb .Nav li {float:left; padding-right:3px; display:inline;}
+#Sheader #Gnb .Nav li a {font:15px "NGothic"; display:inline-block; background:#000; color:#ececec; width:95px; height:29px; text-align:center; padding-top:8px;}
+#Sheader #Gnb .Nav li a:hover {color:#FFF; background:#8d3200}
+/*#Sheader #Gnb .Nav li a.on {color:#FFF; background:#8d3200}*/
+
+#Scontainer {width:100%; margin:25px 0 60px 0; background: #f5f5f5 url("/images/common/bg_sub.gif") repeat-x left top;}
+#Scontainer .sWrap {width:1000px; margin:0 auto;}
+#Scontainer .sWrap h2 {font:30px "Bebas"; color:#2b2b2b; text-align:center; margin-bottom:30px;}
+
+#Scontainer .sWrap .sCentents {width:1000px;}
+#Scontainer .sWrap .sCentents h3 {width:1000px; height:40px; background:url("/images/common/bg_stitle.gif") no-repeat center top; font:20px "NGothicEB"; color:#414141; text-align:center; line-height:40px; margin-top:22px;}
+
+
+#Footer {width:100%; height:112px; background:url("/images/common/bg_footer.gif") repeat-x center top;}
+#Footer .fMenu {width:970px; margin:0 auto; padding:18px 0 0 30px; overflow:hidden;}
+#Footer .fMenu p img {float:right; margin-top:-93px; padding-right:30px;}
+#Footer .fMenu ul {overflow:hidden; margin-bottom:60px; }
+#Footer .fMenu li a {float:left; padding-right:18px; font:13px "NGothic"; color:#5b5b5b;}
+#Footer .fMenu li a:hover {float:left; padding-right:18px; font:13px "NGothic"; color:#5b5b5b; text-decoration:underline;}
+#Footer .fMenu .copyright {font:12px "NGothic"; color:#5b5b5b;}
+
+}
